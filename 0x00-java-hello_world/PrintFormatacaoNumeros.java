@@ -7,6 +7,6 @@ public class PrintFormatacaoNumeros {
         DecimalFormat f1 = new DecimalFormat("0.00");
         DecimalFormat f2 = new DecimalFormat("0,000.00");
         System.out.printf("Valor: R$ %s\n",f2.format(valor));
-        System.out.printf("Taxa: R$ %s%%\n",f1.format(taxa));
+        System.out.printf("Taxa: %s%%\n",f1.format(taxa));
     }
 }
