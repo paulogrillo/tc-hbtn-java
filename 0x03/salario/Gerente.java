@@ -1,11 +1,8 @@
-package tasks.salario;
-
 public class Gerente extends Empregado{
     public Gerente(double salarioFixo) {
         super(salarioFixo);
     }
-    @Override
-    double calcularBonus(Departamento departamento) {
+    public double calcularBonus(Departamento departamento) {
         double diference = 0.00;
         double bonus = 0.00;
         if(departamento.getValorAtingidoMeta() >= departamento.getValorMeta()){
@@ -18,5 +15,3 @@ public class Gerente extends Empregado{
     }
 
 }
-
-

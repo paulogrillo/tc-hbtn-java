@@ -1,5 +1,3 @@
-package tasks.salario;
-
 public class Departamento {
     private double valorMeta = 0.00;
     private double valorAtingidoMeta = 0.00;
@@ -20,4 +18,3 @@ public class Departamento {
         return valorAtingidoMeta >= valorMeta;
     }
 }
-
