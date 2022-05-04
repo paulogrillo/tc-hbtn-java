@@ -1,5 +1,3 @@
-package tasks.livraria;
-
 import tasks.livraria.exceptions.AutorInvalidoException;
 import tasks.livraria.exceptions.LivroInvalidoException;
 

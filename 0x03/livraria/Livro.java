@@ -1,5 +1,3 @@
-package tasks.livraria;
-
 import tasks.livraria.exceptions.*;
 public class Livro {
     private String titulo;
