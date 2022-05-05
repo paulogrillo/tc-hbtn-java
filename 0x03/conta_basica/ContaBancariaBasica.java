@@ -5,7 +5,7 @@ public class ContaBancariaBasica {
     private double saldo;
     private double taxaJurosAnual;
 
-    public ContaBancariaBasica(String numeracao, double taxaDeJurosAnual) {
+    public ContaBancariaBasica(String numeracao, double taxaJurosAnual) {
         this.numeracao = numeracao;
         this.taxaJurosAnual = taxaJurosAnual;
 	this.saldo = 0.00;
