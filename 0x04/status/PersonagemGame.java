@@ -28,9 +28,9 @@ public class PersonagemGame {
     public void setSaudeAtual(int saudeAtual) {
         this.saudeAtual = saudeAtual;
         if(this.saudeAtual == 0){
-	this.status = "morto"
+	this.status = "morto";
 	}else {
-	this.status = "vivo"
+	this.status = "vivo";
 	}
     }
 
