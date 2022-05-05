@@ -1,5 +1,3 @@
-package contas_especiais;
-
 import java.util.Locale;
 
 public class Program {

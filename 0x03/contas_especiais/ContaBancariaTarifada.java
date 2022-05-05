@@ -1,5 +1,3 @@
-package contas_especiais;
-
 import exceptions.*;
 
 public class ContaBancariaTarifada extends ContaBancariaBasica {
