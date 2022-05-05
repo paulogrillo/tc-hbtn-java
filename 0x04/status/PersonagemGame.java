@@ -27,10 +27,10 @@ public class PersonagemGame {
 
     public void setSaudeAtual(int saudeAtual) {
         this.saudeAtual = saudeAtual;
-        if(this.saudeAtual == 0){
+        if(this.saudeAtual == 0 || this.saudeAtual < 0){
 	this.status = "morto";
-	}else {
-	this.status = "vivo";
+	}if(this.saudeAtual > 0){
+		this.status = "vivo";
 	}
     }
 
