@@ -3,11 +3,6 @@ import exceptions.*;
 public class ContaBancariaTarifada extends ContaBancariaBasica {
     private int quantidadeTransacoes;
 
-    public ContaBancariaTarifada(String numeracao, double taxaDeJurosAnual, int quantidadeTransacoes) {
-        super(numeracao, taxaDeJurosAnual);
-        this.quantidadeTransacoes = quantidadeTransacoes;
-    }
-
     public ContaBancariaTarifada(String numeracao, double taxaDeJurosAnual) {
         super(numeracao, taxaDeJurosAnual);
         this.quantidadeTransacoes = quantidadeTransacoes;
