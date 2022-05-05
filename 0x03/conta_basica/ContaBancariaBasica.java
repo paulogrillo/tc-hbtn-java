@@ -65,11 +65,11 @@ public class ContaBancariaBasica {
     }
 
     public double getTaxaDeJurosAnual() {
-        return taxaDeJurosAnual;
+        return taxaJurosAnual;
     }
 
-    public void setTaxaDeJurosAnual(double taxaDeJurosAnual) {
-        this.taxaDeJurosAnual = taxaDeJurosAnual;
+    public void setTaxaDeJurosAnual(double taxaJurosAnual) {
+        this.taxaJurosAnual = taxaJurosAnual;
     }
 }
 
