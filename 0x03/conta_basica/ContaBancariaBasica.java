@@ -2,12 +2,13 @@ import exceptions.OperacaoInvalidaException;
 public class ContaBancariaBasica {
 
     private String numeracao;
-    private double saldo = 0.00;
-    private double taxaDeJurosAnual = 0.00;
+    private double saldo;
+    private double taxaDeJurosAnual;
 
     public ContaBancariaBasica(String numeracao, double taxaDeJurosAnual) {
         this.numeracao = numeracao;
         this.taxaDeJurosAnual = taxaDeJurosAnual;
+	this.saldo = 0.00;
     }
 
     public void depositar(double valor)  throws OperacaoInvalidaException {
