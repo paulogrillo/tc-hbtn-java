@@ -38,7 +38,7 @@ public class ContaBancariaBasica {
         }
     }
     public double calcularJurosMensal(){
-        if (this.getSaldo() <= 0) {
+        if (saldo <= 0) {
             return 0;
         }else {
             return saldo * (( taxaDeJurosAnual / 100) / 12);
