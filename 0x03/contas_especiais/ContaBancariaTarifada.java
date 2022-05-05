@@ -1,6 +1,6 @@
-package tasks.contas_especiais;
+package contas_especiais;
 
-import tasks.contaBancaria.exceptions.OperacaoInvalidaException;
+import exceptions.*;
 
 public class ContaBancariaTarifada extends ContaBancariaBasica {
     private int quantidadeTransacoes;

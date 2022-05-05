@@ -1,4 +1,4 @@
-package tasks.contas_especiais;
+package contas_especiais;
 
 public class ContaBancariaControlada extends ContaBancariaBasica {
 
