@@ -41,7 +41,7 @@ public class ContaBancariaBasica {
         if (saldo <= 0) {
             return 0;
         }else {
-            return saldo * (( taxaDeJurosAnual / 100) / 12);
+            return saldo * (( taxaJurosAnual / 100) / 12);
         }
 
     }
