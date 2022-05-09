@@ -1,6 +1,6 @@
 package produtos;
 
-public class Dvd extends Produto{
+public class Dvd extends Produto {
 
     private String diretor;
     private String genero;
@@ -11,12 +11,6 @@ public class Dvd extends Produto{
         this.diretor = diretor;
         this.genero = genero;
         this.duracao = duracao;
-    }
-
-
-    @Override
-    public double obterPrecoLiquido(double preco) {
-        return (preco*1.20);
     }
 
     public String getDiretor() {
@@ -42,6 +36,9 @@ public class Dvd extends Produto{
     public void setDuracao(int duracao) {
         this.duracao = duracao;
     }
-
+    @Override
+    public double obterPrecoLiquido() {
+        return this.getPrecoBruto() + (this.getPrecoBruto() * 0.2);
+    }
 }
 
