@@ -1,4 +1,4 @@
-package pedido_livraria.produtos;
+package produtos;
 
 public class Dvd extends Produto {
 

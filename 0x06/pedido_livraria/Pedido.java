@@ -1,5 +1,3 @@
-package pedido_livraria;
-import pedido_livraria.produtos.Produto;
 public class Pedido {
 
     private double percentualDesconto;
