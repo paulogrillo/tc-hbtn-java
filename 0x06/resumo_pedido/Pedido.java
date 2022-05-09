@@ -25,7 +25,7 @@ public class Pedido {
         double totalPedido = 0.00;
         System.out.println("------- RESUMO PEDIDO -------");
         for (ItemPedido item : itens) {
-            if(item.getProduto().getClass().getName().equals("pedido_livraria.produtos.Livro")){
+            if(item.getProduto().getClass().getName().equals("produtos.Livro")){
                 System.out.printf(
                         "Tipo: Livro Titulo: %s  Preco: %.2f Quant: %d Total: %.2f\n",
                         item.getProduto().getTitulo(),
@@ -34,7 +34,7 @@ public class Pedido {
                         item.getQuantidade()*item.getProduto().obterPrecoLiquido()
 
                 );
-            }else if(item.getProduto().getClass().getName().equals("pedido_livraria.produtos.Dvd")){
+            }else if(item.getProduto().getClass().getName().equals("produtos.Dvd")){
                 System.out.printf(
                         "Tipo: Dvd Titulo: %s  Preco: %.2f  Quant: %d  Total: %.2f\n",
                         item.getProduto().getTitulo(),
