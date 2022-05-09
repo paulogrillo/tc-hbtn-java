@@ -1,6 +1,7 @@
-package produtos;
+package Produto.produtos;
 
-public class Livro extends Produto {
+public class Livro extends produtos.Produto {
+
     private int paginas;
     private String autor;
     private int edicao;
@@ -10,6 +11,12 @@ public class Livro extends Produto {
         this.paginas = paginas;
         this.autor = autor;
         this.edicao = edicao;
+
+    }
+
+    @Override
+    public double obterPrecoLiquido(double preco) {
+        return (preco*1.15);
     }
 
     public int getPaginas() {
@@ -34,15 +41,6 @@ public class Livro extends Produto {
 
     public void setEdicao(int edicao) {
         this.edicao = edicao;
-    }
-
-    @Override
-    public double obterPrecoLiquido() {
-        double precoLiquido;
-        double acrescimo = 0.15;
-
-        precoLiquido = (this.getPrecoBruto() + (this.getPrecoBruto() * acrescimo));
-        return precoLiquido;
     }
 
 }
