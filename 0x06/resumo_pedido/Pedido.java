@@ -27,7 +27,7 @@ public class Pedido {
         for (ItemPedido item : itens) {
             if(item.getProduto().getClass().getName().equals("produtos.Livro")){
                 System.out.printf(
-                        "Tipo: Livro Titulo: %s  Preco: %.2f Quant: %d Total: %.2f\n",
+                        "Tipo: Livro  Titulo: %s  Preco: %.2f Quant: %d Total: %.2f\n",
                         item.getProduto().getTitulo(),
                         item.getProduto().obterPrecoLiquido(),
                         item.getQuantidade(),
@@ -36,7 +36,7 @@ public class Pedido {
                 );
             }else if(item.getProduto().getClass().getName().equals("produtos.Dvd")){
                 System.out.printf(
-                        "Tipo: Dvd Titulo: %s  Preco: %.2f  Quant: %d  Total: %.2f\n",
+                        "Tipo: Dvd  Titulo: %s  Preco: %.2f  Quant: %d  Total: %.2f\n",
                         item.getProduto().getTitulo(),
                         item.getProduto().obterPrecoLiquido(),
                         item.getQuantidade(),
