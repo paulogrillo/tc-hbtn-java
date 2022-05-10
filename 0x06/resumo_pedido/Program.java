@@ -1,6 +1,8 @@
+	import java.util.Locale;	
     public class Program {
         public static void main(String[] args) {
-                produtos.Livro livro1 = new produtos.Livro("Duna", 2017, "Brasil", 56.30, 680, "Frank Herbert", 1);
+               	Locale.setDefault(new Locale("pt", "BR"));
+		 produtos.Livro livro1 = new produtos.Livro("Duna", 2017, "Brasil", 56.30, 680, "Frank Herbert", 1);
                 produtos.Livro livro2 = new produtos.Livro("Um de nos esta mentindo", 2018, "Brasil", 34.93, 384,
                                 "Karen Mcmanus", 1);
                 produtos.Livro livro3 = new produtos.Livro("Mindset Milionario", 2021, "Brasil", 31.70, 272,
