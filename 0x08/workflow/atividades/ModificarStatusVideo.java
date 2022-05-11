@@ -1,4 +1,4 @@
-package workflows.atividade;
+package atividades;
 
 public class ModificarStatusVideo implements Atividade{
 
