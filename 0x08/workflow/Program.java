@@ -1,9 +1,4 @@
-package workflows;
-
-import workflows.atividade.CarregarVideo;
-import workflows.atividade.CodificarVideo;
-import workflows.atividade.EnviarEmail;
-import workflows.atividade.ModificarStatusVideo;
+import atividades.*;
 
 public class Program {
     public static void main(String[] args) {
