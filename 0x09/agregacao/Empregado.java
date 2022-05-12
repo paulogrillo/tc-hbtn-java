@@ -5,8 +5,8 @@ public class Empregado {
 
     public Empregado(String nome, int codigo, Endereco endereco) {
         this.nome = nome;
-        this.endereco = endereco;
         this.codigo = codigo;
+        this.endereco = endereco;
     }
     public void apresentar(){
         System.out.println("Codigo: "+ codigo);
