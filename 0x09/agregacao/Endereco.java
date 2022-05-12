@@ -1,6 +1,6 @@
 public class Endereco {
 
-    private String logadouro;
+    private String logradouro;
     private String numero;
     private String complemento;
     private String bairro;
@@ -10,8 +10,8 @@ public class Endereco {
 
     public Endereco() {
     }
-    public Endereco(String logadouro, String numero, String complemento, String bairro, String cidade, String estado, String pais) {
-        this.logadouro = logadouro;
+    public Endereco(String logradouro, String numero, String complemento, String bairro, String cidade, String estado, String pais) {
+        this.logradouro = logradouro;
         this.numero = numero;
         this.complemento = complemento;
         this.bairro = bairro;
@@ -19,11 +19,11 @@ public class Endereco {
         this.estado = estado;
         this.pais = pais;
     }
-    public String getLogadouro() {
-        return logadouro;
+    public String getLogradouro() {
+        return logradouro;
     }
-    public void setLogadouro(String logadouro) {
-        this.logadouro = logadouro;
+    public void setLogradouro(String logradouro) {
+        this.logradouro = logradouro;
     }
     public String getNumero() {
         return numero;
