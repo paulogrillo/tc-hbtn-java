@@ -1,5 +1,4 @@
 public class Endereco {
-
     private String logradouro;
     private String numero;
     private String complemento;
@@ -8,8 +7,6 @@ public class Endereco {
     private String estado;
     private String pais;
 
-    public Endereco() {
-    }
     public Endereco(String logradouro, String numero, String complemento, String bairro, String cidade, String estado, String pais) {
         this.logradouro = logradouro;
         this.numero = numero;
