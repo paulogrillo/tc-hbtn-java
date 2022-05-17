@@ -9,9 +9,9 @@ public class Tarefa {
         this.identificador = identificador;
     }
 
-    public void modificarDescricao(String descricao)throws Exception{
+    public void modificarDescricao(String descricao)throws IllegalArgumentException{
         if(descricao == null || descricao.equals("")){
-            throw new Exception("Descricao de tarefa invalida");
+            throw new IllegalArgumentException("Descricao de tarefa invalida");
         }else {
             setDescricao(descricao);
         }
