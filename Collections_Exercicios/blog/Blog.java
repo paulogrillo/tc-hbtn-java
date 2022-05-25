@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Blog {
 
-    private ArrayList<Post> posts = new ArrayList<>();
+    private List<Post> posts = new ArrayList<>();
     private Set<String> autores = new TreeSet<>();
 
     //private String autores;
