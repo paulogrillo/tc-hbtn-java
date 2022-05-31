@@ -3,7 +3,8 @@ import java.util.Locale;
 
 public class Program {
     public static void main(String[] args) {
-        Produto produto1 = new Produto(1,
+	Locale.setDefault(new Locale("pt","BR"));
+    	Produto produto1 = new Produto(1,
                 "Carro Vortex", CategoriaProduto.BRINQUEDO, 799.90);
 
         Produto produto2 = new Produto(2,
