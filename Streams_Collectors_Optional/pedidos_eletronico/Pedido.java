@@ -37,4 +37,10 @@ public class Pedido {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
+   
+    @Override
+    public String toString() {
+        //[<codigo>] <nome cliente>
+        return String.format("["+ "%d" +"]"+ " %s",getCodigo(), getCliente().getNome());
+    }
 }
